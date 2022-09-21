@@ -1,0 +1,22 @@
+#Home: добавление комментария
+'''from selenium import webdriver
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.implicitly_wait(5)
+driver.get("http://practice.automationtesting.in/")
+driver.execute_script("window.scrollBy(0, 600);")
+btn_selenium_ruby = driver.find_element_by_class_name("woocommerce-LoopProduct-link")
+btn_selenium_ruby.click()
+tab_reviews = driver.find_element_by_css_selector(".reviews_tab a")
+tab_reviews.click()
+btn_five_star = driver.find_element_by_class_name("star-5")
+btn_five_star.click()
+txt_your_review = driver.find_element_by_id("comment")
+txt_your_review.send_keys("Nice book!")
+inp_name = driver.find_element_by_id("author")
+inp_name.send_keys("Tester")
+inp_email = driver.find_element_by_id("email")
+inp_email.send_keys("tester@test.com")
+btn_submit = driver.find_element_by_class_name("submit")
+btn_submit.click()
+driver.quit()'''
